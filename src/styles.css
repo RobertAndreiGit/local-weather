@@ -1,0 +1,45 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#weather-bar {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#daily-weather {
+  border: 2px solid rgb(1, 1, 1, 0.1);
+  margin-top: 15px;
+}
+
+canvas {
+  margin-bottom: 0 !important;
+  bottom: 0;
+}
+
+#day {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#current-temp {
+  font-size: 20px;
+}
+
+#min-max-container {
+  margin: 4px;
+}
+
+#current-container {
+  margin: 10px;
+}
+
+canvas {
+  margin: 10px;
+}
+
+#day-container {
+  margin-top: 10px;
+}
